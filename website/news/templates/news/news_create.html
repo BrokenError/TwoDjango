@@ -4,7 +4,7 @@
 
 {% block content %}
     <div class="features">
-        <h1 style="margin-left: -200px">Форма по добавлению статьи</h1>
+        <h1>Форма по добавлению статьи</h1>
         <form method="post">
             {% csrf_token %}
             {{ form.title }}<br>
